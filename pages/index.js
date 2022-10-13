@@ -10,6 +10,7 @@ import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
 import { useState } from 'react'
+import Link from 'next/link'
 
 // Exporting the function/component called Home as a default
 // A component is a JS func that returns some HTML(JSX)
@@ -27,7 +28,7 @@ export default function Home() {
         <section className='min-h-screen'>
           {/* navbar */}
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-3xl font-quickKiss dark:text-white'>Sameer</h1>
+            <Link href='/'><a><h1 className='text-3xl font-quickKiss dark:text-white'>Sameer</h1></a></Link>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className='cursor-pointer text-2xl dark:text-white' onClick={()=>setDarkMode(!darkMode)}/></li>
               <a href='https://linkedin.com/in/-sameer/'><BsLinkedin className='text-2xl ml-5 rounded-md dark:text-white'/></a>
