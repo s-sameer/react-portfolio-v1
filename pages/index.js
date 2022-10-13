@@ -54,7 +54,7 @@ export default function Home() {
               I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
               I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
               I also do <span className='text-cyan-500'>UI/UX design</span> and have experience working with the <span className='text-cyan-500'>cloud</span>, 
-              creating <span className='text-cyan-500'>machine learning</span> models, and <span className='text-cyan-500'>DevOps</span> pipelines.
+              creating and deploying <span className='text-cyan-500'>machine learning</span> models, and <span className='text-cyan-500'>DevOps</span> pipelines.
               Currently pursuing my Bachelor of Computer Engineering degree at Memorial University of Newfoundland.
             </p>
           </div>
