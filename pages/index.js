@@ -51,6 +51,7 @@ export default function Home() {
           <div className='text-center md:max-w-3xl mx-auto py-10'>
             <h2 className='text-4xl text-gray-600 font-medium dark:text-white'>About me</h2>
             <p className='text-xl py-3 text-gray-600 dark:text-white'>
+              just checking update time
               I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
               I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
               I also do <span className='text-cyan-500'>UI/UX design</span> and have experience working with the <span className='text-cyan-500'>cloud</span>, 
