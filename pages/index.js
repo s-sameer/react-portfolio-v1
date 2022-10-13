@@ -9,10 +9,13 @@ import web2 from "../public/web2.png"
 import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
+import { useState } from 'react'
 
 // Exporting the function/component called Home as a default
 // A component is a JS func that returns some HTML(JSX)
+// State is managed within the component
 export default function Home() {
+  const [darkMode, setDarkMode]=useState(false)
   return (
     <div>
       <Head>
@@ -38,7 +41,7 @@ export default function Home() {
             <h2 className='text-xl text-gray-600'>and Machine Learning Engineer</h2>
           </div>
           <div className='flex justify-center my-10'>
-            <div className='relative bg-gradient-to-b from-cyan-500 to bg-purple-400 rounded-full w-80 h-80 flex items-center overflow-hidden'>
+            <div className='relative bg-gradient-to-b from-cyan-500 to bg-purple-400 rounded-full w-80 h-80 flex items-center overflow-hidden lg:h-90 lg:w-90'>
               <Image src={deved} layout="fill" objectFit='cover' />
             </div>
           </div>
@@ -54,18 +57,18 @@ export default function Home() {
               Currently pursuing my Bachelor of Computer Engineering degree at Memorial University of Newfoundland.
             </p>
           </div>
-          <div>
-            <h2 className='text-4xl text-gray-600 pt-10 pb-5 font-medium'>Core Services</h2>
-            <div className='text-center'>
-              <div className='shadow-lg p-10 rounded-xl'>
+          <div className='text-center'>
+            <h2 className='text-4xl text-gray-600 pt-10 pb-5 font-medium md:text-left'>Core Services Offered</h2>
+            <div className='pt-2 md:flex justify-between'>
+              <div className='shadow-lg p-12 rounded-xl m-8 md:my-8 md:ml-0'>
                 <Image src={design} width={100} height={100}/>
                 <h2 className='text-lg'>UI/UX Design</h2>
               </div>
-              <div className='shadow-lg p-10 rounded-xl'>
+              <div className='shadow-lg p-8 rounded-xl m-8'>
                 <Image src={code} width={100} height={100} />
                 <h2 className='text-lg'>Software Development</h2>
               </div>
-              <div className='shadow-lg p-10 rounded-xl'>
+              <div className='shadow-lg p-8 rounded-xl m-8'>
                 <Image src={code} width={100} height={100} />
                 <h2 className='text-lg'>Machine Learning</h2>
               </div>
@@ -73,8 +76,8 @@ export default function Home() {
         </div>
         </section>
         <section>
-          <div>
-            <h3 className='text-4xl text-gray-600 pt-10 pb-5 font-medium'>Work Experience</h3>
+          <div >
+            <h3 className='text-4xl text-gray-600 mt-5 pt-10 pb-5 font-medium text-center md:text-left'>Work Experience</h3>
             <p className='text-xl py-3 text-gray-600'>
               I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
               I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
@@ -84,7 +87,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <h3 className='text-4xl text-gray-600 pt-10 pb-5 font-medium'>Projects</h3>
+            <h3 className='text-4xl text-gray-600 mt-5 pt-10 pb-5 font-medium text-center md:text-left'>Projects</h3>
             <p className='text-xl py-3 text-gray-600'>
               I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
               I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
@@ -93,21 +96,48 @@ export default function Home() {
               Currently pursuing my Bachelor of Computer Engineering degree at Memorial University of Newfoundland.
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={web1}/>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web1}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
             </div>
-            <div>
-              <Image src={web2}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web2}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
             </div>
-            <div>
-              <Image src={web3}/>
-              <div>
-              <Image src={web4}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web3}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
             </div>
-            <div>
-              <Image src={web5}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web4}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
             </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web5}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web3}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"/>
             </div>
           </div>
         </section>
