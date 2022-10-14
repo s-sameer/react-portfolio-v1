@@ -61,17 +61,17 @@ export default function Home() {
           <div className='text-center'>
             <h2 className='text-4xl text-gray-600 pt-10 pb-5 font-medium md:text-left dark:text-white'>Core Services Offered</h2>
             <div className='pt-2 md:flex justify-between'>
-              <div className='shadow-lg p-12 rounded-xl m-8 md:my-8 md:ml-0 dark:bg-white'>
+              <div className='shadow-lg p-12 rounded-xl m-8 md:my-8 md:ml-0 dark:bg-gradient-to-r from-cyan-500 to-purple-400'>
                 <Image src={design} width={100} height={100}/>
-                <h2 className='text-lg'>UI/UX Design</h2>
+                <h2 className='text-lg dark:text-gray-200'>UI/UX Design</h2>
               </div>
-              <div className='shadow-lg p-8 rounded-xl m-8 dark:bg-white'>
+              <div className='shadow-lg p-8 rounded-xl m-8 dark:bg-gradient-to-r from-cyan-500 to-purple-400'>
                 <Image src={code} width={100} height={100} />
-                <h2 className='text-lg'>Software Development</h2>
+                <h2 className='text-lg dark:text-gray-200'>Software Development</h2>
               </div>
-              <div className='shadow-lg p-8 rounded-xl m-8 dark:bg-white'>
+              <div className='shadow-lg p-8 rounded-xl m-8 dark:bg-gradient-to-r from-cyan-500 to-purple-400'>
                 <Image src={code} width={100} height={100} />
-                <h2 className='text-lg'>Machine Learning</h2>
+                <h2 className='text-lg dark:text-gray-200'>Machine Learning</h2>
               </div>
             </div>
         </div>
