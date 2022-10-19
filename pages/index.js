@@ -63,7 +63,7 @@ export default function Home() {
             <div className='pt-2 md:flex justify-between'>
               <div className='shadow-lg p-12 rounded-xl m-8 md:my-8 md:ml-0 dark:bg-white'>
                 <Image src={design} width={100} height={100}/>
-                <h2 className='text-lg dark:text-cyan-400'>UI/UX Design</h2>
+                <h2 className='text-lg dark:text-cyan-500'>UI/UX Design</h2>
               </div>
               <div className='shadow-lg p-8 rounded-xl m-8 dark:bg-white'>
                 <Image src={code} width={100} height={100} />
