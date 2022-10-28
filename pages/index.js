@@ -39,7 +39,6 @@ export default function Home() {
             <h2 className='text-5xl text-cyan-500'>Hi,</h2>
             <h2 className='text-2xl font-medium text-cyan-500'>I&apos;m Sameer</h2>
             <h2 className='text-xl text-gray-600 pt-5 dark:text-white'>Software Developer</h2>
-            <h2 className='text-xl text-gray-600 dark:text-white'>and Machine Learning Engineer</h2>
           </div>
           <div className='flex justify-center my-10'>
             <div className='relative bg-gradient-to-b from-cyan-500 to bg-purple-400 rounded-full w-80 h-80 flex items-center overflow-hidden lg:h-90 lg:w-90'>
