@@ -51,7 +51,7 @@ export default function Home() {
           <div className='text-center md:max-w-3xl mx-auto py-10'>
             <h2 className='text-4xl text-gray-600 font-medium dark:text-white'>About me</h2>
             <p className='text-xl py-3 text-gray-600 dark:text-white'>
-              I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
+              I am a software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
               I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
               I also do <span className='text-cyan-500'>UI/UX design</span> and have experience working with the <span className='text-cyan-500'>cloud</span>, 
               creating and deploying <span className='text-cyan-500'>machine learning</span> models, and <span className='text-cyan-500'>DevOps</span> pipelines.
@@ -80,11 +80,9 @@ export default function Home() {
           <div >
             <h3 className='text-4xl text-gray-600 mt-5 pt-10 pb-5 font-medium text-center md:text-left dark:text-white'>Work Experience</h3>
             <p className='text-xl py-3 text-gray-600 dark:text-white'>
-              I am an expert software developer capable of working with both the <span className='text-cyan-500'>front-end</span> and <span className='text-cyan-500'>backend</span> of applications.
-              I create user-friendly, performant <span className='text-cyan-500'>web applications</span> that scale.
-              I also do <span className='text-cyan-500'>UI/UX design</span> and have experience working with the <span className='text-cyan-500'>cloud</span>, 
-              creating and deploying <span className='text-cyan-500'>machine learning</span> models, and <span className='text-cyan-500'>DevOps</span> pipelines.
-              Currently pursuing my Bachelor of Computer Engineering degree at Memorial University of Newfoundland.
+              I have worked as a <span className='text-cyan-500'>Software Coop Engineering Student</span> with MUN Engineering and as a
+              <span className='text-cyan-500'>Software Developer Coop Student</span> with C-CORE before that. All these experiences have 
+              shaped me to become the person I am today. Greatful to have met and worked with some very people.
             </p>
           </div>
           <div>
